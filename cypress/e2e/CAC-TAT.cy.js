@@ -4,10 +4,11 @@ describe('Central de Atendimento ao Cliente TAT', function() {
   const THREE_SECONDS_IN_ML = 3000
     beforeEach(function() {
       cy.visit('./src/index.html')
+
     })
 
     it('verifica o título da aplicação', function() {
-      cy.title().should('be.equal', 'Central de Atendimento ao Cliente TAT')  
+      cy.title().should('be.equal', 'Central de Atendimento ao Cliente TAT')
         })
 
    
